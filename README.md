@@ -41,10 +41,14 @@ $ flutter config --enable-web
 - Run the App in Release Mode: `flutter run`
 - Generate a Build: `flutter build apk --split-per-abi`
 
-## 🧑🏾‍💻 Useage Instructions 
+## 🧑🏾‍💻 Usage Instructions 
 
 - You need to have the `databaseHelper.dart` file in your lib directory.
 - Import the `databaseHelper.dart` file in your file where you want to implement __CRUD__ operations.
+- If you want to use inserting operation then you can add `inserting.dart` to your project directory and can call the function accordingly.
+-  If you want to use deleting operation then you can add `deleting.dart` to your project directory and can call the function accordingly.
+-  If you want to use query operation then you can add `querying.dart` to your project directory and can call the function accordingly.
+-  If you want to use inserting operation then you can add `inserting.dart` to your project directory and can call the function accordingly.
 
 
 ## Contributors ✨
