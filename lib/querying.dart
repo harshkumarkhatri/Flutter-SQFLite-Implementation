@@ -1,8 +1,8 @@
 import 'databaseHelper.dart';
 
-querying()async{
+querying() async {
   List<Map<String, dynamic>> queryRows =
-                    await DatabaseHelper.instance.queryAll();
+      await DatabaseHelper.instance.queryAll();
 
-                print("query rows are $queryRows");
+  print("query rows are $queryRows");
 }
